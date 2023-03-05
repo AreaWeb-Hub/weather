@@ -1,0 +1,23 @@
+{
+  "name": "areaweb/weather",
+  "description": "Package for getting weather for any location",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AreaWeb\\Weather\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mikhail Protasevich",
+      "email": "hello@areaweb.su"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "larapack/dd": "^1.1",
+    "guzzlehttp/guzzle": "^7.5",
+    "pragmarx/ia-arr": "^7.3"
+  }
+}
