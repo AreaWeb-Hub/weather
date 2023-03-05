@@ -1,6 +1,7 @@
 {
   "name": "areaweb/weather",
   "description": "Package for getting weather for any location",
+  "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "autoload": {
