@@ -17,6 +17,10 @@ class Weather
         $this->client = new WeatherClient($apiKey);
     }
 
+    /**
+     * @param string $location
+     * @return $this
+     */
     public function location(string $location): Weather
     {
         $this->location = $location;
@@ -24,6 +28,7 @@ class Weather
     }
 
     /**
+     * @return Result
      * @throws GuzzleException
      */
     public function get(): Result

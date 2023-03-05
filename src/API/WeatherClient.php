@@ -19,6 +19,8 @@ class WeatherClient
     }
 
     /**
+     * @param string $query
+     * @return array
      * @throws GuzzleException
      */
     public function request(string $query): array
